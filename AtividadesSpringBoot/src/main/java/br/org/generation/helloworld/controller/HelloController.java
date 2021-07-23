@@ -13,7 +13,7 @@ public class HelloController {
 		return "Mentalidade: Responsabilidade Pessoal | Habilidade: Atenção aos Detalhes"; //Metodo do tipo String que Retorna o valor da String
 	}
 	
-	@RequestMapping("/atividade2")
+	@RequestMapping("/atividade2") //Criando uma ramificação dentro do primeiro caminho, ou seja, mais um caminho "/atividade1/atividade2 para retornar mais uma String
 	public String retornaObjetivos() {
 		return "Tenho o objetivo de continuar aumentando a minha porcentagem de aproveitamento do bootcamp"
 				+ ", fazer alguns cursos do Alura e Udemy dentro do que estou aprendendo e alguns"
